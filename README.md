@@ -7,12 +7,13 @@
      1. Predicción: la predicción del modelo se define como:
         
         $$\hat{y} = w \cdot x + b$$
-     3. Cálculo de gradientes: las gradientes del MSE respecto a los parámetros 𝑤 y 𝑏 son:
+     2. Cálculo de gradientes: las gradientes del MSE respecto a los parámetros 𝑤 y 𝑏 son:
         
         $$\frac{\partial \text{MSE}}{\partial w} = 2 \cdot (\hat{y} - y) \cdot x\$$
         
         $$\frac{\partial \text{MSE}}{\partial b} = 2 \cdot (\hat{y} - y)$$
-      4. Actualización de Parámetros: los parámetros se actualizan en cada iteración usando el descenso de
+        
+     3. Actualización de Parámetros: los parámetros se actualizan en cada iteración usando el descenso de
         gradiente con una tasa de aprendizaje hasta que el modelo converja en un valor aproximado deseado.
         
 - [RN + ReLU](https://github.com/Berishten/Redes-neuronales/blob/main/RN_%2B_ReLU.ipynb)
