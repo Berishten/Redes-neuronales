@@ -5,4 +5,7 @@
    - Derivadas parciales
    - Regla de la cadena
    - Error cuadrático
-   - Función de activación RELU
+2. [RN + ReLU](https://github.com/Berishten/Redes-neuronales/blob/main/RN_%2B_ReLU.ipynb)
+   Esta red es muy similar a la anterior pero solo sirve para predecir un valor real positivo, además,
+   se incluye el uso de:
+   - Función de activación ReLU
