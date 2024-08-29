@@ -1,11 +1,21 @@
 # Redes neuronales
-1. [Red neuronal simple](https://github.com/Berishten/Redes-neuronales/blob/main/Red_neuronal_simple.ipynb)
-   Implementación básica de un modelo de regresión lineal, para aproximar a un valor único utilizando:
-   - Derivadas
-   - Derivadas parciales
-   - Regla de la cadena
-   - Error cuadrático
-2. [RN + ReLU](https://github.com/Berishten/Redes-neuronales/blob/main/RN_%2B_ReLU.ipynb)
+- [Red neuronal simple](https://github.com/Berishten/Redes-neuronales/blob/main/Red_neuronal_simple.ipynb)
+   Implementación básica de un modelo de regresión lineal, para aproximar a un valor único utilizando reglas básicas
+   de cálculo diferencial, como: derivadas, derivadas parciales.
+  
+   A groso modo, el modelo funciona de la siguiente manera:
+     1. Predicción: la predicción del modelo se define como:
+        
+        $$\hat{y} = w \cdot x + b$$
+     3. Cálculo de gradientes: las gradientes del MSE respecto a los parámetros 𝑤 y 𝑏 son:
+        
+        $$\frac{\partial \text{MSE}}{\partial w} = 2 \cdot (\hat{y} - y) \cdot x\$$
+        
+        $$\frac{\partial \text{MSE}}{\partial b} = 2 \cdot (\hat{y} - y)$$
+      4. Actualización de Parámetros: los parámetros se actualizan en cada iteración usando el descenso de
+        gradiente con una tasa de aprendizaje hasta que el modelo converja en un valor aproximado deseado.
+        
+- [RN + ReLU](https://github.com/Berishten/Redes-neuronales/blob/main/RN_%2B_ReLU.ipynb)
    Esta red es muy similar a la anterior pero solo sirve para predecir un valor real positivo, además,
    se incluye el uso de:
    - Función de activación ReLU
