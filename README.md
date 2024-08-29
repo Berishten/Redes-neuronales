@@ -5,3 +5,4 @@
    - Derivadas parciales
    - Regla de la cadena
    - Error cuadrático
+   - Función de activación RELU
