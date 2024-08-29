@@ -14,7 +14,11 @@
         $$\frac{\partial \text{MSE}}{\partial b} = 2 \cdot (\hat{y} - y)$$
         
      3. Actualización de Parámetros: los parámetros se actualizan en cada iteración usando el descenso de
-        gradiente con una tasa de aprendizaje hasta que el modelo converja en un valor aproximado deseado.
+        gradiente con una tasa de aprendizaje $\alpha$ hasta que el modelo converja en un valor aproximado deseado.
+
+        $$w \leftarrow w - \alpha \cdot \frac{\partial \text{MSE}}{\partial w}$$
+
+        $$b \leftarrow b - \alpha \cdot \frac{\partial \text{MSE}}{\partial b}$$
         
 - [RN + ReLU](https://github.com/Berishten/Redes-neuronales/blob/main/RN_%2B_ReLU.ipynb)
    Esta red es muy similar a la anterior pero solo sirve para predecir un valor real positivo, además,
